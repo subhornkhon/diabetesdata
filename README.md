@@ -5,4 +5,7 @@
 ## Data visualization and pre-processing
   In this process, I use seaborn pairplot to visualize relationships between two independent variables.
 ## Feature selection
-  I check the correlation between dependent variable (Outcome) and each independent variable and display in the form of heatmap. This is a quick and easy way to see the correlation. I aslo used extra tree classifier
+  I check the correlation between dependent variable (Outcome) and each independent variable and display in the form of heatmap. This is a quick and easy way to see the correlation. In order to create a model, I pick the most import features by using feature selection from extra tree classifier and display them in bar chart
+  
+  ## Classification
+  I used various types of machine learning such as  K Nearest Neighbor(KNN),Decision Tree,  Logistic Regression and Support vector machine to build classification model and evaluate each model using jaccard similarity score
